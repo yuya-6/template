@@ -18,7 +18,8 @@ public class DBConnector {
 		}
 		catch(ClassNotFoundException e){
 			e.printStackTrace();
-		} catch(SQLException e) {
+		}
+		catch(SQLException e) {
 			e.printStackTrace();
 		}
 		return con;
