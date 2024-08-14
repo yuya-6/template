@@ -56,23 +56,23 @@
 	</style>
 </head>
 <body>
-	<div id="header">
-		<div id="pr">
+	<div id = "header">
+		<div id = "pr">
 		</div>
 	</div>
-	<div id="main">
-		<div id="top">
+	<div id = "main">
+		<div id = "top">
 			<p>BuyItem</p>
 		</div>
 		<div>
-		<s:form action="BuyItemAction">
+		<s:form action = "BuyItemAction">
 			<table>
 				<tr>
 					<td>
 						<span>商品名</span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_name"/>
+						<s:property value = "session.buyItem_name"/>
 					</td>
 				</tr>
 				<tr>
@@ -80,7 +80,7 @@
 						<span>値 段 </span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_price" />
+						<s:property value = "session.buyItem_price" />
 						<span>円 </span>
 					</td>
 				</tr>
@@ -90,12 +90,12 @@
 				</td>
 				<tr>
 					<td>
-						<select name="stock">
-							<option value="1" selected="selected"> 1</option>
-							<option value="2">2</option>
-							<option value="3"> 3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
+						<select name = "stock">
+							<option value = "1" selected="selected"> 1</option>
+							<option value = "2">2</option>
+							<option value = "3"> 3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
 						</select>
 					</td>
 				</tr>
@@ -104,26 +104,26 @@
 						<span>支払い方法 </span>
 					</td>
 					<td>
-						<input type="radio" name="pay" value="1" checked="checked">現金払
-						<input type="radio" name="pay" value="2">クレジットカード
+						<input type = "radio" name = "pay" value = "1" checked = "checked">現金払
+						<input type = "radio" name="pay" value = "2">クレジットカード
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<s:submit value="購入"/>
+						<s:submit value = "購入"/>
 					</td>
 				</tr>
 			</table>
 		</s:form>
 		<div>
 			<span>前画面に戻る場合は</span>
-			<a href='<s:url action="HomeAction" />'>こちら
+			<a href = '<s:url action = "HomeAction" />'>こちら
 			</a>
 		</div>
 		</div>
 	</div>
-	<div id="footer">
-		<div id="pr">
+	<div id = "footer">
+		<div id = "pr">
 		</div>
 	</div>
 </body>

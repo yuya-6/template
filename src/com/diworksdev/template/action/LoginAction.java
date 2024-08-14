@@ -17,12 +17,12 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	private Map<String, Object> session;
 
 	public String execute() {
-		LoginDAO loginDAO=new LoginDAO();
-		LoginDTO loginDTO=new LoginDTO();
-		BuyItemDAO buyItemDAO=new BuyItemDAO();
+		LoginDAO loginDAO = new LoginDAO();
+		LoginDTO loginDTO = new LoginDTO();
+		BuyItemDAO buyItemDAO = new BuyItemDAO();
 
 		result=ERROR;
-		loginDTO=loginDAO.getLoginUserInfo(loginUserId, loginPassword);
+		loginDTO = loginDAO.getLoginUserInfo(loginUserId, loginPassword);
 		session.put("loginUser", loginDTO);
 
 		if(((LoginDTO) session.get("loginUser")).getLoginFlg()) {
@@ -42,7 +42,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	}
 
 	public void setLoginUserId(String loginUserId) {
-		this.loginUserId=loginUserId;
+		this.loginUserId = loginUserId;
 	}
 
 	public String getLoginPassword() {
@@ -50,7 +50,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	}
 
 	public void setLoginPassword(String loginPassword) {
-		this.loginPassword=loginPassword;
+		this.loginPassword = loginPassword;
 	}
 
 	public Map<String, Object> getSession() {
@@ -59,6 +59,6 @@ public class LoginAction extends ActionSupport implements SessionAware {
 
 	@Override
 	public void setSession(Map<String, Object> session){
-		this.session=session;
+		this.session = session;
 	}
 }

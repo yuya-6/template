@@ -4,14 +4,14 @@ public class LoginDTO {
 	private String loginId;
 	private String loginPassword;
 	private String userName;
-	private boolean loginFlg=false;
+	private boolean loginFlg = false;
 
 	public String getLoginId() {
 		return loginId;
 	}
 
 	public void setLoginId(String loginId) {
-		this.loginId=loginId;
+		this.loginId = loginId;
 	}
 
 	public String getLoginPassword() {
@@ -19,7 +19,7 @@ public class LoginDTO {
 	}
 
 	public void setLoginPassword(String loginPassword){
-		this.loginPassword=loginPassword;
+		this.loginPassword = loginPassword;
 	}
 
 	public String getUserName() {
@@ -27,7 +27,7 @@ public class LoginDTO {
 	}
 
 	public void setUserName(String userName) {
-		this.userName=userName;
+		this.userName = userName;
 	}
 
 	public boolean getLoginFlg() {
@@ -35,6 +35,6 @@ public class LoginDTO {
 	}
 
 	public void setLoginFlg(boolean loginFlg) {
-		this.loginFlg=loginFlg;
+		this.loginFlg = loginFlg;
 	}
 }

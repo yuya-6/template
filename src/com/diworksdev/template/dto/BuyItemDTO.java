@@ -10,7 +10,7 @@ public class BuyItemDTO {
 	}
 
 	public void setItemName(String itemName) {
-		this.itemName=itemName;
+		this.itemName = itemName;
 	}
 
 	public String getItemPrice() {
@@ -18,7 +18,7 @@ public class BuyItemDTO {
 	}
 
 	public void setItemPrice(String itemPrice) {
-		this.itemPrice=itemPrice;
+		this.itemPrice = itemPrice;
 	}
 
 	public int getId() {
@@ -26,6 +26,6 @@ public class BuyItemDTO {
 	}
 
 	public void setId(int id) {
-		this.id=id;
+		this.id = id;
 	}
 }

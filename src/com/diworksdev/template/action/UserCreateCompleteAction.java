@@ -19,7 +19,7 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 		userCreateCompleteDAO.createUser(session.get("loginUserId").toString(),
 		session.get("loginPassword").toString(),
 		session.get("userName").toString());
-		String result=SUCCESS;
+		String result = SUCCESS;
 		return result;
 	}
 
@@ -28,7 +28,7 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	}
 
 	public void setLoginUserId(String loginUserId) {
-		this.loginUserId=loginUserId;
+		this.loginUserId = loginUserId;
 	}
 
 	public String getLoginPassword() {
@@ -36,7 +36,7 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	}
 
 	public void setLoginPassword(String loginPassword){
-		this.loginPassword=loginPassword;
+		this.loginPassword = loginPassword;
 	}
 
 	public String getUserName() {
@@ -44,7 +44,7 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	}
 
 	public void setUserName(String userName) {
-		this.userName=userName;
+		this.userName = userName;
 	}
 
 	public Map<String, Object> getSession() {
@@ -53,6 +53,6 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 
 	@Override
 	public void setSession(Map<String, Object> session){
-		this.session=session;
+		this.session = session;
 	}
 }

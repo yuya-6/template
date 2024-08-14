@@ -4,15 +4,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta http-equiv="Content-Style-Type" content="text/css"/>
-	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
-	<meta http-equiv="imagetoolbar" content="no"/>
-	<meta name="description" content=""/>
-	<meta name="keywords" content=""/>
+	<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8"/>
+	<meta http-equiv = "Content-Style-Type" content = "text/css"/>
+	<meta http-equiv = "Content-Script-Type" content = "text/javascript"/>
+	<meta http-equiv = "imagetoolbar" content = "no"/>
+	<meta name = "description" content = ""/>
+	<meta name = "keywords" content = ""/>
 	<title>UserCreateComplete画面</title>
 
-	<style type="text/css">
+	<style type = "text/css">
 		/*========TAG LAYOUT========*/
 
 		body {
@@ -69,7 +69,7 @@
 		<div>
 			<h3>ユーザーの登録が完了致しました。</h3>
 			<div>
-				<a href='<s:url action="HomeAction" />'>ログインへ
+				<a href = '<s:url action="HomeAction" />'>ログインへ
 				</a>
 			</div>
 		</div>
